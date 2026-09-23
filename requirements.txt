@@ -1,0 +1,15 @@
+# Python requirements for Solor MSS FortiGate Audit
+# Core dependencies
+flask>=3.0.0
+jinja2>=3.1.0
+
+# Optional: PDF report generation (requires system GTK libraries)
+# weasyprint>=60.0
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Standard library modules used (no install needed):
+# os, re, sys, csv, json, logging, datetime, pathlib, typing
+# dataclasses, enum, concurrent.futures, tempfile, argparse
